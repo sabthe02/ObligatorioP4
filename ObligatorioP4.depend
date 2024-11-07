@@ -58,3 +58,88 @@
 	"Camionero.h"
 	"Iterador.h"
 
+1731016767 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camion.cpp
+	"Camion.h"
+
+1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camionero.cpp
+	"Camionero.h"
+
+1731016140 /Users/santiago/Documents/GitHub/ObligatorioP4/Camionero.h
+	"Str.h"
+	"Fecha.h"
+	"Objeto.h"
+
+1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Str.h
+	<string.h>
+
+1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Fecha.h
+	<stdio.h>
+
+1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camioneros.cpp
+	"Camioneros.h"
+
+1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Camioneros.h
+	"Camionero.h"
+	"Iterador.h"
+
+1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Iterador.h
+	"Objeto.h"
+	<cstddef>
+
+1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Objeto.h
+
+1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camiones.cpp
+	"Camiones.h"
+
+1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Camiones.h
+	"Camion.h"
+
+1731016630 /Users/santiago/Documents/GitHub/ObligatorioP4/Camion.h
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+
+1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Fachada.cpp
+	"Fachada.h"
+
+1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Fachada.h
+
+1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Fecha.cpp
+	"Fecha.h"
+
+1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Iterador.cpp
+	"Iterador.h"
+
+1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Objeto.cpp
+	"Objeto.h"
+
+1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Str.cpp
+	"Str.h"
+	<stdio.h>
+
+1731014265 source:/Users/santiago/Documents/GitHub/ObligatorioP4/main.cpp
+	<stdio.h>
+	"Fachada.h"
+	"Iterador.h"
+
+1731016760 source:/Users/santiago/Documents/GitHub/ObligatorioP4/ConRemolque.cpp
+	"ConRemolque.h"
+
+1731016760 /Users/santiago/Documents/GitHub/ObligatorioP4/ConRemolque.h
+	"Grande.h"
+
+1731016671 /Users/santiago/Documents/GitHub/ObligatorioP4/Grande.h
+	"Camion.h"
+	"Str.h"
+	"Fecha.h"
+
+1731016671 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Grande.cpp
+	"Grande.h"
+
+1731016630 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Simple.cpp
+	"Simple.h"
+
+1731016629 /Users/santiago/Documents/GitHub/ObligatorioP4/Simple.h
+	"Camion.h"
+	"Str.h"
+

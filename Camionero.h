@@ -1,9 +1,11 @@
 #ifndef CAMIONERO_H_INCLUDED
 #define CAMIONERO_H_INCLUDED
+
 #include "Str.h"
 #include "Fecha.h"
+#include "Objeto.h"
 
-class Camionero{
+class Camionero: Objeto{
 
 private:
     int cedula;

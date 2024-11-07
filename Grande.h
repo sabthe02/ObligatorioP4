@@ -1,11 +1,28 @@
 #ifndef GRANDE_H_INCLUDED
 #define GRANDE_H_INCLUDED
 
-class Grande: public Camion{
+#include "Camion.h"
+#include "Str.h"
+#include "Fecha.h"
+
+class Grande:  Camion{
 
 private:
-public:
+    float Volumen;
+    Fecha FechaAdquirido;
 
+public:
+    Grande();
+    Grande(String, String, int, Camionero *, float, Fecha);
+    Grande(String, String, int, float, Fecha);
+    float getVolumen();
+    Fecha getFechaAdquirida();
+    void setVolumen(float);
+    void setFechaAdquirido(Fecha);
+
+    virtual ~Grande ();
+
+    String getTipo();
 };
 
 
