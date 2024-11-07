@@ -1,10 +1,10 @@
 #ifndef CONREMOLQUE_H_INCLUDED
 #define CONREMOLQUE_H_INCLUDED
 
-class ConRemolque: Grande{
+class ConRemolque: public Grande{
 
-public:
 private:
+public:
 
 };
 

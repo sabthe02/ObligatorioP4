@@ -5,8 +5,8 @@
 
 class Camiones{
 
-public:
 private:
+public:
 
 };
 

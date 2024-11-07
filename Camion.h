@@ -3,8 +3,8 @@
 
 class Camion{
 
-public:
 private:
+public:
 
 };
 

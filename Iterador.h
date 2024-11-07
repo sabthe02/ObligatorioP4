@@ -1,10 +1,22 @@
 #ifndef ITERADOR_H_INCLUDED
 #define ITERADOR_H_INCLUDED
+#include "Objeto.h"
+#include <cstddef>
+class iterador{
 
-class Iterador{
+    private:
+        struct Nodo {   Objeto * info;
+                        Nodo * sig;
+                    };
+        Nodo * prim;
+        Nodo * ulti;
+        Nodo * actual;
 
-public:
-private:
+    public:
+        iterador();
+        void insertar(Objeto*);
+        bool hayMasObjetos();
+        Objeto* proximoObjeto();
 
 };
 

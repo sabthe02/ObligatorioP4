@@ -44,6 +44,8 @@
 		<Unit filename="ConRemolque.h" />
 		<Unit filename="Fachada.cpp" />
 		<Unit filename="Fachada.h" />
+		<Unit filename="Fecha.cpp" />
+		<Unit filename="Fecha.h" />
 		<Unit filename="Grande.cpp" />
 		<Unit filename="Grande.h" />
 		<Unit filename="Iterador.cpp" />
@@ -52,6 +54,8 @@
 		<Unit filename="Objeto.h" />
 		<Unit filename="Simple.cpp" />
 		<Unit filename="Simple.h" />
+		<Unit filename="Str.cpp" />
+		<Unit filename="Str.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

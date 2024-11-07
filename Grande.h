@@ -1,10 +1,10 @@
 #ifndef GRANDE_H_INCLUDED
 #define GRANDE_H_INCLUDED
 
-class Grande: Camion{
+class Grande: public Camion{
 
-public:
 private:
+public:
 
 };
 
