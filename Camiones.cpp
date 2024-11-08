@@ -145,6 +145,8 @@ Camion* Camiones:: Find(String mat) {
 
 void Camiones::cantidadEnFlota(int &simple, int &grande, int &conremolque) {
 
-
+    for (int i=0;i < B; i++) {
+        cantidadEnFlotaLista(Hash[i],simple, grande, conremolque);
+     }
 
 }
