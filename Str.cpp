@@ -46,6 +46,14 @@ bool String::operator== (String s) {
     return es;
 }
 
+bool String::operator!= (String s) {
+    bool es = false;
+    if (strcmp(s.cadena, cadena) == 0) {
+        es = false;
+    }
+    return es;
+}
+
 bool String:: operator< (String s) {
     bool es = true;
 
@@ -60,6 +68,7 @@ bool String:: operator< (String s) {
 return es;
 
 }
+
 
 String String:: operator+ (String s) {
     String aux;
@@ -97,4 +106,18 @@ void String:: scan()
     cadena[i] = '\0';
     cadena = new char[i+1];
     strcpy(cadena, aux);
+}
+
+int String::sumarCaracteres() {
+
+    int i = 0;
+    int contador = 0;
+    while (cadena[i]!= '\0' && i <MAX)
+    {
+        contador = cadena[i]+contador;
+        i++;
+    }
+    return contador;
+
+
 }

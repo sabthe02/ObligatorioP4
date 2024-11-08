@@ -1,9 +1,9 @@
 #include "ConRemolque.h"
 
 
-ConRemolque :: ConRemolque()
+ConRemolque :: ConRemolque():Grande()
 {
-    capRemolque = -1;
+    capRemolque = 0;
 }
 
 ConRemolque :: ConRemolque (String mat, String mar, int cantViajes, float vol, Fecha f, float cap): Grande(mat, mar, cantViajes, vol, f)
@@ -14,6 +14,12 @@ ConRemolque :: ConRemolque (String mat, String mar, int cantViajes, float vol, F
 ConRemolque :: ConRemolque (String mat, String mar, int cantViajes, Camionero * cam, float vol, Fecha f, float cap): Grande(mat, mar, cantViajes, cam, vol, f)
 {
     capRemolque = cap;
+}
+
+ConRemolque::ConRemolque(const ConRemolque &otro):Grande(otro) {
+
+Volumen = otro.Volumen;
+
 }
 
 float ConRemolque :: getCapRemolque()
@@ -33,5 +39,13 @@ ConRemolque :: ~ConRemolque ()
 
 String ConRemolque :: getTipo()
 {
-    return "CONREMOLQUE";
+    return "ConRemolque";
+}
+
+float ConRemolque::calcularCapacidadAnualDeVolumen() {
+
+    float capacidad = Grande::calcularCapacidadAnualDeVolumen();
+
+return capacidad + capRemolque*CantViajesAnuales;
+
 }

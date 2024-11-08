@@ -2,8 +2,10 @@
 
 
 
-Camion :: Camion ()
+Camion :: Camion ():Matricula(), Marca()
 {
+    CantViajesAnuales = 0;
+    Cam = NULL;
 
 }
 
@@ -17,6 +19,11 @@ Camion :: Camion (String matricula, String marca, int cantViajes, Camionero * ca
 {
     CantViajesAnuales = cantViajes;
     Cam = camionero;
+}
+
+Camion::Camion (const Camion &otro): Matricula(otro.Matricula), Marca(otro.Marca) {
+
+    CantViajesAnuales = otro.CantViajesAnuales;
 }
 
 String Camion :: getMatricula()
@@ -58,3 +65,4 @@ Camion :: ~Camion ()
 {
     Cam = NULL;
 }
+

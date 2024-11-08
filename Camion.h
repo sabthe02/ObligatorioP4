@@ -5,7 +5,7 @@
 #include "Str.h"
 #include "Objeto.h"
 
-class Camion: Objeto{
+class Camion: public Objeto{
 
 private:
 
@@ -19,6 +19,7 @@ public:
     Camion ();
     Camion (String, String, int);
     Camion (String, String, int, Camionero *);
+    Camion (const Camion&);
 
     String getMatricula();
     String getMarca();
@@ -32,6 +33,7 @@ public:
     virtual ~Camion ();
 
     virtual String getTipo() = 0;
+    virtual float calcularCapacidadAnualDeVolumen() = 0;
 
 };
 

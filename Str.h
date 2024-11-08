@@ -29,11 +29,12 @@ public:
     ~String (); // Destructor
     String operator= (const String&);
     bool operator== (String);
+    bool operator!= (String);
     bool operator< (String);
     String operator+ (String);
     void print();
     void scan();
-
+    int sumarCaracteres();
 };
 
 #endif // STR_H_INCLUDED

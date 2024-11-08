@@ -86,19 +86,19 @@ return Encontrar(c,abb);
 }
 
 
-//void Camioneros:: ListCamioneros(iterador &iter, Nodo * abb) {
-//
-//    if (abb!=NULL) {
-//        ListCamioneros(iter, abb->hizq);
-//        iter.insertar(abb->info);
-//        ListCamioneros(iter, abb->hder);
-//
-//    }
-//
-//}
-//
-//void Camioneros::listarCamioneros(iterador &iter) {
-//
-//    ListCamioneros(iter, abb);
-//
-//}
+void Camioneros:: ListCamioneros(iterador &iter, Nodo * abb) {
+
+    if (abb!=NULL) {
+        ListCamioneros(iter, abb->hizq);
+        iter.insertar(&abb->info);
+        ListCamioneros(iter, abb->hder);
+
+    }
+
+}
+
+void Camioneros::listarCamioneros(iterador &iter) {
+
+    ListCamioneros(iter, abb);
+
+}

@@ -1,6 +1,6 @@
 #include "Simple.h"
 
-Simple :: Simple():Camion()
+Simple :: Simple():Camion(), depto()
 {
 
 }
@@ -15,10 +15,15 @@ Simple :: Simple(String matricula, String marca, int cantViajes, Camionero * cam
 
 }
 
+Simple::Simple(const Simple &otro):Camion(otro), depto(otro.depto) {
+
+}
+
 String Simple :: getDepto()
 {
     return depto;
 }
+
 void Simple :: setDepto(String Departamento)
 {
     depto = Departamento;
@@ -31,7 +36,12 @@ Simple :: ~Simple ()
 
 String Simple :: getTipo()
 {
-    return "SIMPLE";
+    return "Simple";
 }
 
+float calcularCapacidadAnualDeVolumen() {
+
+return CantViajesAnuales*25;
+
+}
 

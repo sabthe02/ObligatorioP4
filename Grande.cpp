@@ -1,9 +1,9 @@
 #include "Grande.h"
 
 
-Grande :: Grande()
+Grande :: Grande():Camion(), FechaAdquirido()
 {
-
+Volumen = 0;
 }
 
 Grande :: Grande(String mat, String mar, int cantViajes, float vol, Fecha f): Camion(mat, mar, cantViajes), FechaAdquirido(f)
@@ -14,6 +14,12 @@ Grande :: Grande(String mat, String mar, int cantViajes, float vol, Fecha f): Ca
 Grande :: Grande(String mat, String mar, int cantViajes, Camionero * cam, float vol, Fecha f): Camion(mat, mar, cantViajes, cam), FechaAdquirido(f)
 {
     Volumen = vol;
+}
+
+Grande::Grande(const Grande &otro):Camion(otro), FechaAdquirido(otro.FechaAdquirido) {
+
+Volumen = otro.Volumen;
+
 }
 
 float Grande :: getVolumen()
@@ -43,5 +49,11 @@ Grande :: ~Grande ()
 
 String Grande :: getTipo()
 {
-    return "GRANDE";
+    return "Grande";
+}
+
+float calcularCapacidadAnualDeVolumen() {
+
+    return CantViajesAnuales*Volumen;
+
 }

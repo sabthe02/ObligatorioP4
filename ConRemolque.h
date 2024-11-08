@@ -3,20 +3,22 @@
 
 #include "Grande.h"
 
-class ConRemolque: Grande{
+class ConRemolque: public Grande{
 
 private:
     float capRemolque;
-public:
 
+public:
     ConRemolque();
     ConRemolque (String, String, int, float, Fecha, float);
     ConRemolque (String, String, int, Camionero *, float, Fecha, float);
+//    ConRemolque(const ConRemolque&);
+
     float getCapRemolque();
     void setCapRemolque(float);
 
     virtual ~ConRemolque ();
-
+    float calcularCapacidadAnualDeVolumen();
 
     String getTipo();
 

@@ -4,7 +4,7 @@
 #include "Camion.h"
 #include "Str.h"
 
-class Simple: Camion{
+class Simple: public Camion{
 
 public:
     String depto;
@@ -14,12 +14,15 @@ private:
     Simple();
     Simple(String, String, int, String);
     Simple(String, String, int, Camionero *, String);
+    Simple (const Simple&);
+
     String getDepto();
     void setDepto(String);
 
     virtual ~Simple ();
 
     String getTipo();
+    float calcularCapacidadAnualDeVolumen();
 
 };
 

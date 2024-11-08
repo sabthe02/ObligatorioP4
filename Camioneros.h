@@ -19,13 +19,14 @@ private:
         void Insertar(Camionero, Nodo *&);
         Camionero Encontrar(int, Nodo *);
         void ListCamioneros(iterador&, Nodo *);
+        float volumenPorLista(Nodo *);
 public:
         Camioneros();
         ~Camioneros();
         bool Member(int);
         void Insert(Camionero);
         Camionero Find(int);
-//        void listarCamioneros(iterador&);
+        void listarCamioneros(iterador&);
 
 };
 

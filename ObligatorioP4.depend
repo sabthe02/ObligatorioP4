@@ -1,60 +1,67 @@
 # depslib dependency file v1.0
-1730998648 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.cpp
-
-1731001290 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camionero.cpp
-	"Camionero.h"
-
-1731000455 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camionero.h
-	"Str.h"
-	"Fecha.h"
-
-1728601890 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\str.h
-	<string.h>
-
-1727874372 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.h
-	<stdio.h>
-
-1731000498 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.cpp
-	"Camiones.h"
-
-1731009414 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.h
+1731097362 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.cpp
 	"Camion.h"
 
-1731009376 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.h
+1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camionero.cpp
+	"Camionero.h"
 
-1731000515 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.cpp
+1731023492 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camionero.h
+	"Str.h"
+	"Fecha.h"
+	"Objeto.h"
+
+1731092756 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\str.h
+	<string.h>
+
+1731023304 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.h
+	<stdio.h>
+
+1731100661 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.cpp
+	"Camiones.h"
+
+1731100633 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.h
+	"Camion.h"
+	"Iterador.h"
+
+1731097374 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.h
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+
+1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.cpp
 	"Fachada.h"
 
-1730998649 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.h
+1731023304 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.h
 
-1731000568 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.cpp
+1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.cpp
 	"Fecha.h"
 
-1730998649 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\main.cpp
+1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\main.cpp
 	<stdio.h>
 	"Fachada.h"
 	"Iterador.h"
 
-1731010116 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\iterador.h
+1731023304 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\iterador.h
 	"Objeto.h"
 	<cstddef>
 
-1730998649 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.h
+1731024372 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.h
+	"Str.h"
 
-1731000610 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.cpp
+1731023494 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.cpp
 	"Objeto.h"
 
-1731003850 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\str.cpp
+1731092957 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\str.cpp
 	"Str.h"
 	<stdio.h>
 
-1731002449 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\iterador.cpp
+1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\iterador.cpp
 	"Iterador.h"
 
-1731011576 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.cpp
+1731024425 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.cpp
 	"Camioneros.h"
 
-1731011572 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.h
+1731099875 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.h
 	"Camionero.h"
 	"Iterador.h"
 
@@ -142,4 +149,25 @@
 1731016629 /Users/santiago/Documents/GitHub/ObligatorioP4/Simple.h
 	"Camion.h"
 	"Str.h"
+
+1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\simple.cpp
+	"Simple.h"
+
+1731023304 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\simple.h
+	"Camion.h"
+	"Str.h"
+
+1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\conremolque.cpp
+	"ConRemolque.h"
+
+1731023304 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\conremolque.h
+	"Grande.h"
+
+1731025942 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\grande.h
+	"Camion.h"
+	"Str.h"
+	"Fecha.h"
+
+1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\grande.cpp
+	"Grande.h"
 
