@@ -3,6 +3,7 @@
 
 #include "Camion.h"
 #include "Iterador.h"
+#include "Grande.h"
 
 const int B = 100;
 
@@ -23,6 +24,7 @@ private:
         void listarTodosEnLista(Nodo *, iterador&);
         float volumenPorLista (Nodo *);
         void cantidadEnFlotaLista (Nodo *, int&, int&, int&);
+        int contarCamionesGrandesPostFechaLista (Nodo *, Fecha);
 
 public:
         Camiones();
@@ -33,6 +35,7 @@ public:
         void listarCamiones(iterador&);
         float capacidadAnualFlota();
         void cantidadEnFlota(int&, int&, int&);
+        int contarCamionesGrandesPostFecha(Fecha);
 
 };
 

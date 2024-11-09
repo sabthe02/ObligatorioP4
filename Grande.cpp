@@ -52,8 +52,8 @@ String Grande :: getTipo()
     return "Grande";
 }
 
-float calcularCapacidadAnualDeVolumen() {
+float Grande::calcularCapacidadAnualDeVolumen() {
 
-    return CantViajesAnuales*Volumen;
+    return (*this).getCantViajesAnuales()*Volumen;
 
 }

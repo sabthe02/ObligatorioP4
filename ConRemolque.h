@@ -12,7 +12,7 @@ public:
     ConRemolque();
     ConRemolque (String, String, int, float, Fecha, float);
     ConRemolque (String, String, int, Camionero *, float, Fecha, float);
-//    ConRemolque(const ConRemolque&);
+    ConRemolque(const ConRemolque&);
 
     float getCapRemolque();
     void setCapRemolque(float);

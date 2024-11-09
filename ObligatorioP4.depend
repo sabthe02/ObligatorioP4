@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1731097362 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.cpp
+1731185523 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.cpp
 	"Camion.h"
 
 1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camionero.cpp
@@ -16,14 +16,15 @@
 1731023304 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.h
 	<stdio.h>
 
-1731103092 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.cpp
+1731189104 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.cpp
 	"Camiones.h"
 
-1731100633 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.h
+1731184635 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.h
 	"Camion.h"
 	"Iterador.h"
+	"Grande.h"
 
-1731097374 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.h
+1731184613 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.h
 	"Camionero.h"
 	"Str.h"
 	"Objeto.h"
@@ -45,7 +46,7 @@
 	"Objeto.h"
 	<cstddef>
 
-1731024372 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.h
+1731185976 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.h
 	"Str.h"
 
 1731023494 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.cpp
@@ -157,17 +158,17 @@
 	"Camion.h"
 	"Str.h"
 
-1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\conremolque.cpp
+1731190452 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\conremolque.cpp
 	"ConRemolque.h"
 
-1731023304 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\conremolque.h
+1731190355 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\conremolque.h
 	"Grande.h"
 
-1731025942 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\grande.h
+1731189526 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\grande.h
 	"Camion.h"
 	"Str.h"
 	"Fecha.h"
 
-1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\grande.cpp
+1731190504 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\grande.cpp
 	"Grande.h"
 

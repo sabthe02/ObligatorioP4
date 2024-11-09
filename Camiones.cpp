@@ -92,6 +92,22 @@ void Camiones::cantidadEnFlotaLista(Nodo *L, int &simples, int &grandes, int &co
 
 }
 
+int Camiones::contarCamionesGrandesPostFechaLista (Nodo *L, Fecha f) {
+
+int contador = 0;
+    while (L != NULL) {
+            if (L->info->getTipo() == "Grande"){
+                Grande* d = dynamic_cast<Grande*>(L->info);
+                if (f <=d->getFechaAdquirida()) {
+                    contador++;
+                }
+            }
+            L = L->sig;
+        }
+    return contador;
+
+}
+
 Camiones::Camiones() {
 
     for (int i=0; i <B; i++) {
@@ -149,4 +165,14 @@ void Camiones::cantidadEnFlota(int &simple, int &grande, int &conremolque) {
         cantidadEnFlotaLista(Hash[i],simple, grande, conremolque);
      }
 
+}
+int Camiones::contarCamionesGrandesPostFecha(Fecha f) {
+
+    int contador;
+
+    for (int i = 0; i < B; i++) {
+        contador = contarCamionesGrandesPostFechaLista(Hash[i], f);
+
+    }
+    return contador;
 }

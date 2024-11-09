@@ -18,7 +18,7 @@ ConRemolque :: ConRemolque (String mat, String mar, int cantViajes, Camionero * 
 
 ConRemolque::ConRemolque(const ConRemolque &otro):Grande(otro) {
 
-Volumen = otro.Volumen;
+capRemolque = otro.capRemolque;
 
 }
 
@@ -46,6 +46,8 @@ float ConRemolque::calcularCapacidadAnualDeVolumen() {
 
     float capacidad = Grande::calcularCapacidadAnualDeVolumen();
 
-return capacidad + capRemolque*CantViajesAnuales;
+    int cant = (*this).getCantViajesAnuales();
+
+return capacidad + capRemolque*cant;
 
 }

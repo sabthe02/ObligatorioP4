@@ -60,7 +60,6 @@ void Camion :: setCamionero(Camionero * camionero)
     Cam = camionero;
 }
 
-
 Camion :: ~Camion ()
 {
     Cam = NULL;

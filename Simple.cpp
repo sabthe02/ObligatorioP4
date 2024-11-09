@@ -39,9 +39,9 @@ String Simple :: getTipo()
     return "Simple";
 }
 
-float calcularCapacidadAnualDeVolumen() {
+float Simple::calcularCapacidadAnualDeVolumen() {
 
-return CantViajesAnuales*25;
+return (*this).getCantViajesAnuales()*25;
 
 }
 
