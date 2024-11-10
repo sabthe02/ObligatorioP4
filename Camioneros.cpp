@@ -56,11 +56,7 @@ void Camioneros:: Insertar(Camionero c, Nodo * &abb) {
 
 }
 
-void Camioneros::Insert(Camionero c) {
 
-Insertar(c, abb);
-
-}
 
 Camionero Camioneros::Encontrar(int c, Nodo * abb) {
     Camionero camionero;
@@ -79,9 +75,17 @@ Camionero Camioneros::Encontrar(int c, Nodo * abb) {
 
 }
 
-Camionero Camioneros::Find(int c) {
+bool Camioneros::Vacio (Nodo *abb) {
 
-return Encontrar(c,abb);
+    bool es;
+    if (abb==NULL) {
+        es = true;
+    }
+    else {
+        es = false;
+    }
+
+    return es;
 
 }
 
@@ -97,8 +101,50 @@ void Camioneros:: ListCamioneros(iterador &iter, Nodo * abb) {
 
 }
 
+Camionero Camioneros::MostTattoos (Nodo *abb, int &cant) {
+    Camionero camionero;
+    if (abb!=NULL) {
+        if (abb->info.getCantTatuajes() >=cant) {
+                    camionero = abb->info;
+                    cant = camionero.getCantTatuajes();
+                }
+        MostTattoos(abb->hizq, cant);
+        MostTattoos(abb->hder, cant);
+
+ }
+ return camionero;
+
+}
+
+void Camioneros::Insert(Camionero c) {
+
+Insertar(c, abb);
+
+}
+
+Camionero Camioneros::Find(int c) {
+
+return Encontrar(c,abb);
+
+}
+
+bool Camioneros::Empty() {
+
+return Vacio(abb);
+
+}
+
+
 void Camioneros::listarCamioneros(iterador &iter) {
 
     ListCamioneros(iter, abb);
+
+}
+
+Camionero Camioneros:: MayorCantTatuajes () {
+
+int cant = 0;
+
+return MostTattoos(abb, cant);
 
 }

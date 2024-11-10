@@ -17,16 +17,20 @@ private:
         Nodo *abb;
         bool Miembro(int, Nodo *);
         void Insertar(Camionero, Nodo *&);
+        bool Vacio(Nodo*);
         Camionero Encontrar(int, Nodo *);
         void ListCamioneros(iterador&, Nodo *);
-        float volumenPorLista(Nodo *);
+        Camionero MostTattoos (Nodo *, int&);
+
 public:
         Camioneros();
         ~Camioneros();
         bool Member(int);
         void Insert(Camionero);
         Camionero Find(int);
+        bool Empty ();
         void listarCamioneros(iterador&);
+        Camionero MayorCantTatuajes ();
 
 };
 

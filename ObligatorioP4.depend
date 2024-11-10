@@ -29,10 +29,14 @@
 	"Str.h"
 	"Objeto.h"
 
-1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.cpp
+1731272813 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.cpp
 	"Fachada.h"
 
-1731023304 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.h
+1731272837 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.h
+	"Camioneros.h"
+	"Camiones.h"
+	"Iterador.h"
+	"Errores.h"
 
 1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.cpp
 	"Fecha.h"
@@ -59,10 +63,10 @@
 1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\iterador.cpp
 	"Iterador.h"
 
-1731024425 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.cpp
+1731271770 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.cpp
 	"Camioneros.h"
 
-1731099875 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.h
+1731271800 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.h
 	"Camionero.h"
 	"Iterador.h"
 
@@ -151,10 +155,10 @@
 	"Camion.h"
 	"Str.h"
 
-1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\simple.cpp
+1731190548 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\simple.cpp
 	"Simple.h"
 
-1731023304 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\simple.h
+1731098305 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\simple.h
 	"Camion.h"
 	"Str.h"
 
@@ -171,4 +175,6 @@
 
 1731190504 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\grande.cpp
 	"Grande.h"
+
+1731267093 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\errores.h
 

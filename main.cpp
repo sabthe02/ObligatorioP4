@@ -132,7 +132,6 @@ int main()
         default:
             printf("La opcion ingresada no es valida. \n\n");
             break;
-
         }
 
     }
