@@ -3,6 +3,7 @@
 #include "Fachada.h"
 #include "Iterador.h"
 
+
 void imprimirMenu()
 {
     printf(" *****  MENU PRINCIPAL **** \n\n");
@@ -34,12 +35,57 @@ void opcion3(Fachada fac)
 {
 
 }
-void opcion4(Fachada fac)
+void opcion4(Fachada &fac)
 {
+    int CI, cantTatuajes, dia, mes, anio;
+    String nombre;
+    Fecha fec_nac;
+
+    printf("Ingrese la CI: ");
+    scanf("%d", &CI);
+
+    fflush(stdin);
+    printf("Ingrese el nombre: ");
+    nombre.scan();
+
+    printf("Ingrese la cantidad de tatuejes: ");
+    scanf("%d", &cantTatuajes);
+
+    printf("Ingrese el dia de nacimiento: ");
+    scanf("%d", &dia);
+    printf("Ingrese el mes de nacimiento: ");
+    scanf("%d", &mes);
+    printf("Ingrese el anio de nacimiento: ");
+    scanf("%d", &anio);
+
+    Fecha f(dia, mes, anio);
+    Camionero cam(CI, nombre, cantTatuajes, f);
+    Errores e;
+
+    fac.AgregarCamionero(cam, e);
+
+
+    if(e == NINGUNO)
+    {
+        printf("Se agrego el camionero con exito.");
+    }else if(e == CAMIONERO_EXISTE)
+    {
+        printf("Ya existe un camionero con esa CI.");
+    }
 
 }
-void opcion5(Fachada fac)
+void opcion5(Fachada &fac)
 {
+    printf("\n\n *** Listado de Camioneros *** \n\n");
+
+    iterador it = fac.ListarCamioneros();
+
+    while(it.hayMasObjetos())
+    {
+        Objeto* o = it.proximoObjeto();
+        printf("\nCI: %d", ((Camionero *)o)->getCedula());
+
+    }
 
 }
 void opcion6(Fachada fac)
@@ -129,9 +175,14 @@ int main()
             opcion1(fachada);
             break;
         }
+        case 99:
+            printf("\nSaliendo...");
+
+            break;
         default:
             printf("La opcion ingresada no es valida. \n\n");
             break;
+
         }
 
     }

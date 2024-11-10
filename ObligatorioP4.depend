@@ -10,7 +10,7 @@
 	"Fecha.h"
 	"Objeto.h"
 
-1731092756 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\str.h
+1731275344 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\str.h
 	<string.h>
 
 1731023304 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.h
@@ -29,10 +29,10 @@
 	"Str.h"
 	"Objeto.h"
 
-1731272813 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.cpp
+1731276668 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.cpp
 	"Fachada.h"
 
-1731272837 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.h
+1731276692 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.h
 	"Camioneros.h"
 	"Camiones.h"
 	"Iterador.h"
@@ -41,7 +41,7 @@
 1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.cpp
 	"Fecha.h"
 
-1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\main.cpp
+1731276886 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\main.cpp
 	<stdio.h>
 	"Fachada.h"
 	"Iterador.h"
@@ -63,10 +63,10 @@
 1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\iterador.cpp
 	"Iterador.h"
 
-1731271770 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.cpp
+1731278012 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.cpp
 	"Camioneros.h"
 
-1731271800 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.h
+1731277740 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.h
 	"Camionero.h"
 	"Iterador.h"
 
@@ -176,5 +176,5 @@
 1731190504 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\grande.cpp
 	"Grande.h"
 
-1731267093 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\errores.h
+1731275258 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\errores.h
 

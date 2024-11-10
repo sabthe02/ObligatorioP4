@@ -14,7 +14,7 @@ private:
                         Nodo * hder;
                     };
 
-        Nodo *abb;
+        Nodo *abbCam;
         bool Miembro(int, Nodo *);
         void Insertar(Camionero, Nodo *&);
         bool Vacio(Nodo*);

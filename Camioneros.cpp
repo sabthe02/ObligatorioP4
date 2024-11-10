@@ -1,7 +1,7 @@
 #include "Camioneros.h"
 
 Camioneros::Camioneros() {
-   abb=NULL;
+   abbCam=NULL;
 
 }
 
@@ -34,7 +34,7 @@ if (abb== NULL) {
 
 bool Camioneros::Member(int c) {
 
-return (Miembro(c, abb));
+return (Miembro(c, abbCam));
 
 }
 
@@ -118,26 +118,26 @@ Camionero Camioneros::MostTattoos (Nodo *abb, int &cant) {
 
 void Camioneros::Insert(Camionero c) {
 
-Insertar(c, abb);
+Insertar(c, abbCam);
 
 }
 
 Camionero Camioneros::Find(int c) {
 
-return Encontrar(c,abb);
+return Encontrar(c,abbCam);
 
 }
 
 bool Camioneros::Empty() {
 
-return Vacio(abb);
+return Vacio(abbCam);
 
 }
 
 
 void Camioneros::listarCamioneros(iterador &iter) {
 
-    ListCamioneros(iter, abb);
+    ListCamioneros(iter, abbCam);
 
 }
 
@@ -145,6 +145,6 @@ Camionero Camioneros:: MayorCantTatuajes () {
 
 int cant = 0;
 
-return MostTattoos(abb, cant);
+return MostTattoos(abbCam, cant);
 
 }

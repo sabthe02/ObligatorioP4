@@ -1,61 +1,64 @@
 #include "Fachada.h"
 
+
 Fachada :: Fachada()
 {
 
 }
 //
-//enum Fachada :: RegistroNuevoCamion(Camion, int, enum&)
+//void Fachada :: RegistroNuevoCamion(Camion, int, Errores&)
 //{
 //
 //}
-//
-//Iterador Fachada :: ListadoBasicoCamiones ()
+//iterador Fachada :: ListadoBasicoCamiones ()
 //{
 //
 //}
-//
-//Camion Fachada:: ListadoDetalladoCamion(String, enum&)
+//Camion Fachada :: ListadoDetalladoCamion(String, Errores&)
 //{
 //
 //}
-//
-//void Fachada:: AgregarCamionero(Camionero, enum&)
+void Fachada :: AgregarCamionero(Camionero c, Errores& err)
+{
+    if(!dicA.Member(c.getCedula()))
+    {
+        dicA.Insert(c);
+
+        err = NINGUNO;
+
+    }else
+    {
+        err = CAMIONERO_EXISTE;
+    }
+}
+
+iterador Fachada :: ListarCamioneros()
+{
+    iterador it;
+
+
+
+    dicA.listarCamioneros(it);
+
+    return it;
+}
+//float Fachada :: CantidadCubicosAnuales()
 //{
 //
 //}
-//
-//Iterador Fachada:: ListarCamioneros()
-//{
-//    Iterador it;
-//
-//
-//
-//    return it;
-//}
-//
-//float Fachada:: CantidadCubicosAnuales()
+//void Fachada :: ModificarCantidadViajesAnuales(String, int&, Errores&)
 //{
 //
 //}
-//
-//void Fachada::ModificarCantidadViajesAnuales(String, int&, enum&)
+//void Fachada :: ObtenerCantidadDeCadaTipoDeCamion(int&, int&, int&)
 //{
 //
 //}
-//
-//void Fachada::ObtenerCantidadDeCadaTipoDeCamion(int&, int&, int&)
+//Camionero Fachada :: ListarCamioneroConMasTatuajes(Errores&)
 //{
 //
 //}
-//
-//Camionero Fachada::ListarCamioneroConMasTatuajes(enum&)
+//int Fachada :: RegistradosGrandesPosteriorAFecha(Fecha, Errores&)
 //{
 //
 //}
-//
-//int Fachada::RegistradosGrandesPosteriorAFecha(Fecha, enum&)
-//{
-//
-//}
-//

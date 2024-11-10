@@ -5,27 +5,30 @@
 #include "Camiones.h"
 #include "Iterador.h"
 #include "Errores.h"
-//
+
 class Fachada{
 
 private:
+
     Camioneros dicA;
     Camiones dicH;
-//
 public:
+
     Fachada();
-//    void RegistroNuevoCamion(Camion, int, Error_RegistroCamion&);
+
+//    void RegistroNuevoCamion(Camion, int, Errores&);
 //    iterador ListadoBasicoCamiones ();
-//    Camion ListadoDetalladoCamion(String, Error_ListadoDetCamion&);
-//    void AgregarCamionero(Camionero, Error_RegistroCamioneros&);
-//    iterador ListarCamioneros();
+//    Camion ListadoDetalladoCamion(String, Errores&);
+    void AgregarCamionero(Camionero, Errores&);
+    iterador ListarCamioneros();
 //    float CantidadCubicosAnuales();
-//    void ModificarCantidadViajesAnuales(String, int&, Error_ModificarCantViajes&);
+//    void ModificarCantidadViajesAnuales(String, int&, Errores&);
 //    void ObtenerCantidadDeCadaTipoDeCamion(int&, int&, int&);
-//    Camionero ListarCamioneroConMasTatuajes(enum&);
-//    int RegistradosGrandesPosteriorAFecha(Fecha, enum&);
-//
+//    Camionero ListarCamioneroConMasTatuajes(Errores&);
+//    int RegistradosGrandesPosteriorAFecha(Fecha, Errores&);
+
+
 };
-//
+
 
 #endif // FACHADA_H_INCLUDED
