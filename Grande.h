@@ -5,7 +5,7 @@
 #include "Str.h"
 #include "Fecha.h"
 
-class Grande:  Camion{
+class Grande:  public Camion{
 
 private:
     float Volumen;
@@ -15,6 +15,8 @@ public:
     Grande();
     Grande(String, String, int, Camionero *, float, Fecha);
     Grande(String, String, int, float, Fecha);
+    Grande(const Grande&);
+
     float getVolumen();
     Fecha getFechaAdquirida();
     void setVolumen(float);
@@ -23,6 +25,7 @@ public:
     virtual ~Grande ();
 
     String getTipo();
+    float calcularCapacidadAnualDeVolumen();
 };
 
 

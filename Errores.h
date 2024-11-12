@@ -1,0 +1,13 @@
+#ifndef ERRORES_H_INCLUDED
+#define ERRORES_H_INCLUDED
+
+typedef enum {
+    NINGUNO, 
+    CAMIONERO_EXISTE, 
+    CAMIONERO_NO_EXISTE,
+    CAMION_EXISTE,
+    CAMION_NO_EXISTE,
+    }Errores;
+
+
+#endif // ERRORES_H_INCLUDED

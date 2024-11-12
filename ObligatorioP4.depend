@@ -1,145 +1,667 @@
 # depslib dependency file v1.0
-1730998648 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.cpp
+1731445997 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.cpp
+	"Camion.h"
 
-1731001290 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camionero.cpp
+1731356775 
+
+1731445997 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camionero.cpp
 	"Camionero.h"
 
-1731000455 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camionero.h
+1731298005 .h"
+
+1731445997 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camionero.h
 	"Str.h"
 	"Fecha.h"
+	"Objeto.h"
 
-1728601890 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\str.h
+1731447963 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\str.h
 	<string.h>
+	<iostream>
 
-1727874372 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.h
+1731445998 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.h
 	<stdio.h>
 
-1731000498 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.cpp
+1731445997 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.cpp
 	"Camiones.h"
 
-1731009414 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.h
+1731298010 h"
+
+1731445997 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camiones.h
 	"Camion.h"
-
-1731009376 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.h
-
-1731000515 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.cpp
-	"Fachada.h"
-
-1730998649 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.h
-
-1731000568 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.cpp
-	"Fecha.h"
-
-1730998649 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\main.cpp
-	<stdio.h>
-	"Fachada.h"
 	"Iterador.h"
-
-1731010116 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\iterador.h
-	"Objeto.h"
-	<cstddef>
-
-1730998649 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.h
-
-1731000610 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.cpp
-	"Objeto.h"
-
-1731003850 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\str.cpp
-	"Str.h"
-	<stdio.h>
-
-1731002449 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\iterador.cpp
-	"Iterador.h"
-
-1731011576 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.cpp
-	"Camioneros.h"
-
-1731011572 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.h
-	"Camionero.h"
-	"Iterador.h"
-
-1731016767 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camion.cpp
-	"Camion.h"
-
-1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camionero.cpp
-	"Camionero.h"
-
-1731016140 /Users/santiago/Documents/GitHub/ObligatorioP4/Camionero.h
-	"Str.h"
-	"Fecha.h"
-	"Objeto.h"
-
-1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Str.h
-	<string.h>
-
-1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Fecha.h
-	<stdio.h>
-
-1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camioneros.cpp
-	"Camioneros.h"
-
-1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Camioneros.h
-	"Camionero.h"
-	"Iterador.h"
-
-1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Iterador.h
-	"Objeto.h"
-	<cstddef>
-
-1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Objeto.h
-
-1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camiones.cpp
-	"Camiones.h"
-
-1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Camiones.h
-	"Camion.h"
-
-1731016630 /Users/santiago/Documents/GitHub/ObligatorioP4/Camion.h
-	"Camionero.h"
-	"Str.h"
-	"Objeto.h"
-
-1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Fachada.cpp
-	"Fachada.h"
-
-1731012065 /Users/santiago/Documents/GitHub/ObligatorioP4/Fachada.h
-
-1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Fecha.cpp
-	"Fecha.h"
-
-1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Iterador.cpp
-	"Iterador.h"
-
-1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Objeto.cpp
-	"Objeto.h"
-
-1731012065 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Str.cpp
-	"Str.h"
-	<stdio.h>
-
-1731014265 source:/Users/santiago/Documents/GitHub/ObligatorioP4/main.cpp
-	<stdio.h>
-	"Fachada.h"
-	"Iterador.h"
-
-1731016760 source:/Users/santiago/Documents/GitHub/ObligatorioP4/ConRemolque.cpp
+	"Grande.h"
+	"Simple.h"
 	"ConRemolque.h"
 
-1731016760 /Users/santiago/Documents/GitHub/ObligatorioP4/ConRemolque.h
+1731445997 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camion.h
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+
+1731445998 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.cpp
+	"Fachada.h"
+
+1731298007 "
+
+1731445998 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fachada.h
+	"Camioneros.h"
+	"Camiones.h"
+	"Errores.h"
+	"Iterador.h"
+
+1731445998 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\fecha.cpp
+	"Fecha.h"
+
+1731023304 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\main.cpp
+	<stdio.h>
+	"Fachada.h"
+	"Iterador.h"
+
+1731445998 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\iterador.h
+	"Objeto.h"
+	<cstddef>
+
+1731445998 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.h
+	"Str.h"
+
+1731445998 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\objeto.cpp
+	"Objeto.h"
+
+1731092957 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\str.cpp
+	"Str.h"
+	<stdio.h>
+
+1731445998 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\iterador.cpp
+	"Iterador.h"
+
+1731445997 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.cpp
+	"Camioneros.h"
+
+1731298007 s.h"
+
+1731445997 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\camioneros.h
+	"Camionero.h"
+	"Iterador.h"
+
+1731190591 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camion.cpp
+	"Camion.h"
+	"Camion.h"
+	"Camion.h"
+
+1731190591 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camionero.cpp
+	"Camionero.h"
+	"Camionero.h"
+	"Camionero.h"
+
+1731190591 /Users/santiago/Documents/GitHub/ObligatorioP4/Camionero.h
+	"Str.h"
+	"Fecha.h"
+	"Objeto.h"
+	"Str.h"
+	"Fecha.h"
+	"Objeto.h"
+	"Str.h"
+	"Fecha.h"
+	"Objeto.h"
+
+1731190591 /Users/santiago/Documents/GitHub/ObligatorioP4/Str.h
+	<string.h>
+	<string.h>
+	<string.h>
+
+1731190591 /Users/santiago/Documents/GitHub/ObligatorioP4/Fecha.h
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+
+1731276580 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camioneros.cpp
+	"Camioneros.h"
+	"Camioneros.h"
+	"Camioneros.h"
+
+1731273911 /Users/santiago/Documents/GitHub/ObligatorioP4/Camioneros.h
+	"Camionero.h"
+	"Iterador.h"
+	"Camionero.h"
+	"Iterador.h"
+	"Camionero.h"
+	"Iterador.h"
+
+1731190591 /Users/santiago/Documents/GitHub/ObligatorioP4/Iterador.h
+	"Objeto.h"
+	<cstddef>
+	"Objeto.h"
+	<cstddef>
+	"Objeto.h"
+	<cstddef>
+
+1731190591 /Users/santiago/Documents/GitHub/ObligatorioP4/Objeto.h
+	"Str.h"
+	"Str.h"
+	"Str.h"
+
+1731190591 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Camiones.cpp
+	"Camiones.h"
+	"Camiones.h"
+	"Camiones.h"
+
+1731190591 /Users/santiago/Documents/GitHub/ObligatorioP4/Camiones.h
+	"Camion.h"
+	"Iterador.h"
+	"Grande.h"
+	"Camion.h"
+	"Iterador.h"
+	"Grande.h"
+	"Camion.h"
+	"Iterador.h"
 	"Grande.h"
 
-1731016671 /Users/santiago/Documents/GitHub/ObligatorioP4/Grande.h
+1731190591 /Users/santiago/Documents/GitHub/ObligatorioP4/Camion.h
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+
+1731275740 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Fachada.cpp
+	"Fachada.h"
+	"Fachada.h"
+	"Fachada.h"
+
+1731275731 /Users/santiago/Documents/GitHub/ObligatorioP4/Fachada.h
+	"Camioneros.h"
+	"Camiones.h"
+	"Errores.h"
+	"Iterador.h"
+	"Camioneros.h"
+	"Camiones.h"
+	"Errores.h"
+	"Iterador.h"
+	"Camioneros.h"
+	"Camiones.h"
+	"Errores.h"
+	"Iterador.h"
+
+1731190591 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Fecha.cpp
+	"Fecha.h"
+	"Fecha.h"
+	"Fecha.h"
+
+1731267639 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Iterador.cpp
+	"Iterador.h"
+	"Iterador.h"
+	"Iterador.h"
+
+1731190591 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Objeto.cpp
+	"Objeto.h"
+	"Objeto.h"
+	"Objeto.h"
+
+1731265907 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Str.cpp
+	"Str.h"
+	<stdio.h>
+	"Str.h"
+	<stdio.h>
+	"Str.h"
+	<stdio.h>
+
+1731276752 source:/Users/santiago/Documents/GitHub/ObligatorioP4/main.cpp
+	<stdio.h>
+	"Fachada.h"
+	"Iterador.h"
+	<stdio.h>
+	"Fachada.h"
+	"Iterador.h"
+	<stdio.h>
+	"Fachada.h"
+	"Iterador.h"
+
+1731190591 source:/Users/santiago/Documents/GitHub/ObligatorioP4/ConRemolque.cpp
+	"ConRemolque.h"
+	"ConRemolque.h"
+	"ConRemolque.h"
+
+1731298007 ue.h"
+
+1731190591 /Users/santiago/Documents/GitHub/ObligatorioP4/ConRemolque.h
+	"Grande.h"
+	"Grande.h"
+	"Grande.h"
+
+1731190591 /Users/santiago/Documents/GitHub/ObligatorioP4/Grande.h
+	"Camion.h"
+	"Str.h"
+	"Fecha.h"
+	"Camion.h"
+	"Str.h"
+	"Fecha.h"
 	"Camion.h"
 	"Str.h"
 	"Fecha.h"
 
-1731016671 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Grande.cpp
+1731190591 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Grande.cpp
+	"Grande.h"
+	"Grande.h"
 	"Grande.h"
 
-1731016630 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Simple.cpp
+1731190591 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Simple.cpp
+	"Simple.h"
+	"Simple.h"
 	"Simple.h"
 
-1731016629 /Users/santiago/Documents/GitHub/ObligatorioP4/Simple.h
+1731190591 /Users/santiago/Documents/GitHub/ObligatorioP4/Simple.h
 	"Camion.h"
 	"Str.h"
+	"Camion.h"
+	"Str.h"
+	"Camion.h"
+	"Str.h"
+
+1731445998 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\simple.cpp
+	"Simple.h"
+
+1731445998 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\simple.h
+	"Camion.h"
+	"Str.h"
+
+1731445997 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\conremolque.cpp
+	"ConRemolque.h"
+
+1731445997 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\conremolque.h
+	"Grande.h"
+
+1731445998 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\grande.h
+	"Camion.h"
+	"Str.h"
+	"Fecha.h"
+
+1731445998 source:c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\grande.cpp
+	"Grande.h"
+
+1731266134 /Users/santiago/Documents/GitHub/ObligatorioP4/Errores.h
+
+1731190591 source:z:\obligatoriop4\camion.cpp
+	"Camion.h"
+
+1731190591 z:\obligatoriop4\camion.h
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+
+1731190591 z:\obligatoriop4\camionero.h
+	"Str.h"
+	"Fecha.h"
+	"Objeto.h"
+
+1731190591 z:\obligatoriop4\str.h
+	<string.h>
+
+1731190591 z:\obligatoriop4\fecha.h
+	<stdio.h>
+
+1731190591 z:\obligatoriop4\objeto.h
+	"Str.h"
+
+1731190591 source:z:\obligatoriop4\camionero.cpp
+	"Camionero.h"
+
+1731273911 source:z:\obligatoriop4\camioneros.cpp
+	"Camioneros.h"
+
+1731273911 z:\obligatoriop4\camioneros.h
+	"Camionero.h"
+	"Iterador.h"
+
+1731190591 z:\obligatoriop4\iterador.h
+	"Objeto.h"
+	<cstddef>
+
+1731190591 source:z:\obligatoriop4\camiones.cpp
+	"Camiones.h"
+
+1731190591 z:\obligatoriop4\camiones.h
+	"Camion.h"
+	"Iterador.h"
+	"Grande.h"
+
+1731190591 z:\obligatoriop4\grande.h
+	"Camion.h"
+	"Str.h"
+	"Fecha.h"
+
+1731190591 source:z:\obligatoriop4\conremolque.cpp
+	"ConRemolque.h"
+
+1731190591 z:\obligatoriop4\conremolque.h
+	"Grande.h"
+
+1731275740 source:z:\obligatoriop4\fachada.cpp
+	"Fachada.h"
+
+1731275731 z:\obligatoriop4\fachada.h
+	"Camioneros.h"
+	"Camiones.h"
+	"Errores.h"
+	"Iterador.h"
+
+1731266134 z:\obligatoriop4\errores.h
+
+1731190591 source:z:\obligatoriop4\fecha.cpp
+	"Fecha.h"
+
+1731190591 source:z:\obligatoriop4\grande.cpp
+	"Grande.h"
+
+1731267639 source:z:\obligatoriop4\iterador.cpp
+	"Iterador.h"
+
+1731267442 source:z:\obligatoriop4\main.cpp
+	<stdio.h>
+	"Fachada.h"
+	"Iterador.h"
+
+1731190591 source:z:\obligatoriop4\objeto.cpp
+	"Objeto.h"
+
+1731190591 source:z:\obligatoriop4\simple.cpp
+	"Simple.h"
+
+1731190591 z:\obligatoriop4\simple.h
+	"Camion.h"
+	"Str.h"
+
+1731265907 source:z:\obligatoriop4\str.cpp
+	"Str.h"
+	<stdio.h>
+
+1731439214 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Camion.cpp
+	"Camion.h"
+	"Camion.h"
+	"Camion.h"
+
+1731358901 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Camion.h
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+
+1731298005 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Camionero.h
+	"Str.h"
+	"Fecha.h"
+	"Objeto.h"
+	"Str.h"
+	"Fecha.h"
+	"Objeto.h"
+	"Str.h"
+	"Fecha.h"
+	"Objeto.h"
+
+1731366330 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Str.h
+	<string.h>
+	<string.h>
+	<string.h>
+	<iostream>
+
+1731298009 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Fecha.h
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+
+1731298016 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Objeto.h
+	"Str.h"
+	"Str.h"
+	"Str.h"
+
+1731439346 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Camionero.cpp
+	"Camionero.h"
+	"Camionero.h"
+	"Camionero.h"
+
+1731442909 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Camioneros.cpp
+	"Camioneros.h"
+	"Camioneros.h"
+	"Camioneros.h"
+
+1731442929 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Camioneros.h
+	"Camionero.h"
+	"Iterador.h"
+	"Camionero.h"
+	"Iterador.h"
+	"Camionero.h"
+	"Iterador.h"
+
+1731298010 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Iterador.h
+	"Objeto.h"
+	<cstddef>
+	"Objeto.h"
+	<cstddef>
+	"Objeto.h"
+	<cstddef>
+
+1731443191 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Camiones.cpp
+	"Camiones.h"
+	"Camiones.h"
+	"Camiones.h"
+
+1731361720 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Camiones.h
+	"Camion.h"
+	"Iterador.h"
+	"Grande.h"
+	"Simple.h"
+	"ConRemolque.h"
+	"Camion.h"
+	"Iterador.h"
+	"Grande.h"
+	"Simple.h"
+	"ConRemolque.h"
+	"Camion.h"
+	"Iterador.h"
+	"Grande.h"
+	"Simple.h"
+	"ConRemolque.h"
+
+1731298010 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Grande.h
+	"Camion.h"
+	"Str.h"
+	"Fecha.h"
+	"Camion.h"
+	"Str.h"
+	"Fecha.h"
+	"Camion.h"
+	"Str.h"
+	"Fecha.h"
+
+1731298007 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/ConRemolque.cpp
+	"ConRemolque.h"
+	"ConRemolque.h"
+	"ConRemolque.h"
+
+1731298007 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/ConRemolque.h
+	"Grande.h"
+	"Grande.h"
+	"Grande.h"
+
+1731443200 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Fachada.cpp
+	"Fachada.h"
+	"Fachada.h"
+	"Fachada.h"
+
+1731298007 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Fachada.h
+	"Camioneros.h"
+	"Camiones.h"
+	"Errores.h"
+	"Iterador.h"
+	"Camioneros.h"
+	"Camiones.h"
+	"Errores.h"
+	"Iterador.h"
+	"Camioneros.h"
+	"Camiones.h"
+	"Errores.h"
+	"Iterador.h"
+
+1731298007 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Errores.h
+
+1731298007 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Fecha.cpp
+	"Fecha.h"
+	"Fecha.h"
+	"Fecha.h"
+
+1731298010 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Grande.cpp
+	"Grande.h"
+	"Grande.h"
+	"Grande.h"
+
+1731298010 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Iterador.cpp
+	"Iterador.h"
+	"Iterador.h"
+	"Iterador.h"
+
+1731298016 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Objeto.cpp
+	"Objeto.h"
+	"Objeto.h"
+	"Objeto.h"
+
+1731361574 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Simple.cpp
+	"Simple.h"
+	"Simple.h"
+	"Simple.h"
+
+1731358955 /Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Simple.h
+	"Camion.h"
+	"Str.h"
+	"Camion.h"
+	"Str.h"
+	"Camion.h"
+	"Str.h"
+
+1731366482 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/Str.cpp
+	"Str.h"
+	<stdio.h>
+	"Str.h"
+	<stdio.h>
+	"Str.h"
+	<stdio.h>
+
+1731442962 source:/Users/santiago/Documents/GitHub/ObligatorioP4/Version2/main.cpp
+	<stdio.h>
+	"Fachada.h"
+	"Iterador.h"
+	"Simple.h"
+	<stdio.h>
+	"Fachada.h"
+	"Iterador.h"
+	"Simple.h"
+	<stdio.h>
+	"Fachada.h"
+	"Iterador.h"
+	"Simple.h"
+
+1731364743 source:z:\obligatoriop4\version2\camion.cpp
+	"Camion.h"
+
+1731358901 z:\obligatoriop4\version2\camion.h
+	"Camionero.h"
+	"Str.h"
+	"Objeto.h"
+
+1731298005 z:\obligatoriop4\version2\camionero.h
+	"Str.h"
+	"Fecha.h"
+	"Objeto.h"
+
+1731298018 z:\obligatoriop4\version2\str.h
+	<string.h>
+
+1731298009 z:\obligatoriop4\version2\fecha.h
+	<stdio.h>
+
+1731298016 z:\obligatoriop4\version2\objeto.h
+	"Str.h"
+
+1731298005 source:z:\obligatoriop4\version2\camionero.cpp
+	"Camionero.h"
+
+1731298007 source:z:\obligatoriop4\version2\camioneros.cpp
+	"Camioneros.h"
+
+1731298457 z:\obligatoriop4\version2\camioneros.h
+	"Camionero.h"
+	"Iterador.h"
+
+1731298010 z:\obligatoriop4\version2\iterador.h
+	"Objeto.h"
+	<cstddef>
+
+1731361702 source:z:\obligatoriop4\version2\camiones.cpp
+	"Camiones.h"
+
+1731361720 z:\obligatoriop4\version2\camiones.h
+	"Camion.h"
+	"Iterador.h"
+	"Grande.h"
+	"Simple.h"
+	"ConRemolque.h"
+
+1731298010 z:\obligatoriop4\version2\grande.h
+	"Camion.h"
+	"Str.h"
+	"Fecha.h"
+
+1731358955 z:\obligatoriop4\version2\simple.h
+	"Camion.h"
+	"Str.h"
+
+1731298007 z:\obligatoriop4\version2\conremolque.h
+	"Grande.h"
+
+1731298007 source:z:\obligatoriop4\version2\conremolque.cpp
+	"ConRemolque.h"
+
+1731298007 source:z:\obligatoriop4\version2\fachada.cpp
+	"Fachada.h"
+
+1731298007 z:\obligatoriop4\version2\fachada.h
+	"Camioneros.h"
+	"Camiones.h"
+	"Errores.h"
+	"Iterador.h"
+
+1731298007 z:\obligatoriop4\version2\errores.h
+
+1731298007 source:z:\obligatoriop4\version2\fecha.cpp
+	"Fecha.h"
+
+1731298010 source:z:\obligatoriop4\version2\grande.cpp
+	"Grande.h"
+
+1731298010 source:z:\obligatoriop4\version2\iterador.cpp
+	"Iterador.h"
+
+1731298016 source:z:\obligatoriop4\version2\objeto.cpp
+	"Objeto.h"
+
+1731361574 source:z:\obligatoriop4\version2\simple.cpp
+	"Simple.h"
+
+1731356775 source:z:\obligatoriop4\version2\str.cpp
+	"Str.h"
+	<stdio.h>
+
+1731363943 source:z:\obligatoriop4\version2\main.cpp
+	<stdio.h>
+	"Fachada.h"
+	"Iterador.h"
+	"Simple.h"
+
+1731445998 c:\users\sabth\ude licenciatura en informática\2°\programación iv\obligatoriop4\errores.h
 

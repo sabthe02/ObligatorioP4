@@ -17,7 +17,9 @@ class iterador{
         void insertar(Objeto*);
         bool hayMasObjetos();
         Objeto* proximoObjeto();
-
+        bool esVacio ();
+        
+        ~iterador ();
 };
 
 

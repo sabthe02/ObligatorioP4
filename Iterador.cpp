@@ -18,8 +18,9 @@ void iterador::insertar(Objeto *o) {
         actual = prim;
     }
     else {
+        ulti->sig = aux;
         ulti = aux;
-        prim->sig = aux;
+        //prim->sig = aux;
     }
 
 }
@@ -36,3 +37,22 @@ Objeto* iterador::proximoObjeto() {
     actual = actual->sig;
     return (aux);
 }
+
+
+
+ bool iterador :: esVacio ()
+    {
+        return (prim == NULL);
+    }
+
+
+iterador :: ~iterador ()
+    {
+        Nodo * aux;
+        while (prim != NULL)
+        {
+            aux = prim;
+            prim = prim->sig;
+            delete aux;
+        }
+    }

@@ -5,7 +5,7 @@
 #include "Fecha.h"
 #include "Objeto.h"
 
-class Camionero: Objeto{
+class Camionero: public Objeto{
 
 private:
     int cedula;
