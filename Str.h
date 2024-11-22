@@ -2,18 +2,19 @@
 #define STR_H_INCLUDED
 
 #include <string.h>
+#include <iostream>
 
 //Implemente la clase String en C++ para representar cadenas de a lo sumo MAX caracteres.
-//Internamente, la clase utilizará char * como representación, con uso de memoria dinámica.
-//Se deben proveer los métodos usuales
-//(constructor por defecto, constructor común, constructor de copia, destructor y sobrecarga del operador de asignación)
-//en los cuales se debe manejar cuidadosamente la memoria dinámica evitando alias, y además las siguientes operaciones:
+//Internamente, la clase utilizarï¿½ char * como representaciï¿½n, con uso de memoria dinï¿½mica.
+//Se deben proveer los mï¿½todos usuales
+//(constructor por defecto, constructor comï¿½n, constructor de copia, destructor y sobrecarga del operador de asignaciï¿½n)
+//en los cuales se debe manejar cuidadosamente la memoria dinï¿½mica evitando alias, y ademï¿½s las siguientes operaciones:
 //
 //    == : String x String -> boolean
-//    <  : String x String -> boolean  (comparación alfabética)
-//    +  : String x String -> String   (concatenación)
-//También se deben programar las operaciones scan y print, que leen un string de teclado y muestran un string por pantalla respectivamente.
-//b) Haga un programa de prueba (main) que pruebe los métodos de la clase String.
+//    <  : String x String -> boolean  (comparaciï¿½n alfabï¿½tica)
+//    +  : String x String -> String   (concatenaciï¿½n)
+//Tambiï¿½n se deben programar las operaciones scan y print, que leen un string de teclado y muestran un string por pantalla respectivamente.
+//b) Haga un programa de prueba (main) que pruebe los mï¿½todos de la clase String.
 
 const int MAX = 80;
 
@@ -24,16 +25,27 @@ private:
 
 public:
     String (); // Constructor por defecto
-    String (char *); // Constructor común
+    String (char *); // Constructor comun
     String (const String&);
     ~String (); // Destructor
     String operator= (const String&);
     bool operator== (String);
+    bool operator!= (String);
     bool operator< (String);
     String operator+ (String);
     void print();
     void scan();
+    int sumarCaracteres();
 
+
+
+    int largo() const;
 };
+
+
+
+
+
+
 
 #endif // STR_H_INCLUDED

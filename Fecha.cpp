@@ -245,7 +245,9 @@ bool Fecha :: operator< (Fecha fec)
                     if (dia < fec.dia)
                     {
                         esMenor = true;
-                    }else{
+                    }
+                    else
+                    {
                         esMenor = false;
                     }
                 }
@@ -296,15 +298,15 @@ bool Fecha :: operator<= (Fecha fec)
                     if (dia <= fec.dia)
                     {
                         esMenorOIgual = true;
-                    }else{
+                    }
+                    else
+                    {
                         esMenorOIgual = false;
                     }
                 }
 
             }
-
         }
-
     }
 
     return esMenorOIgual;
@@ -429,24 +431,16 @@ int Fecha:: operator-(Fecha f)
 bool Fecha :: esValida()
 {
 
+
     bool es = true;
 
-    if (anio < 1900 || anio > 2099)
-
-    {
-
+    if (anio < 1900 || anio > 2099) {
         es = false;
-
     }
-
     else
-
     {
-
         switch (mes)
-
         {
-
         case 1:
         case 3:
         case 5:
@@ -454,42 +448,36 @@ bool Fecha :: esValida()
         case 8:
         case 10:
         case 12:
-
-            es = (dia < 1 || dia > 31);
-
-            break;
-
+            if (dia < 1 || dia > 31) {
+                es = false;
+            }
+                 break;
         case 4:
         case 6:
         case 9:
         case 11:
-
-            es = (dia < 1 || dia > 30);
-
+            if (dia < 1 || dia > 30) {
+                es = false;
+            }
+                 break;
+        case 2:
+            if (((anio % 4 == 0) && (anio % 100 != 0) ) || (anio % 400 == 0)) {
+               if (dia < 1 || dia > 29) {
+                es = false;
+               }
+            }
+            else {
+                if (dia < 1 || dia > 28) {
+                    es = false;
+                }
+            }
             break;
 
-        case 2:
-
-            if (((anio % 4 == 0) && (anio % 100 != 0)) ||(anio % 400 == 0))
-
-            {
-
-                es = (dia < 1 || dia > 29);
-
-            }
-
-            else
-
-            {
-
-                es = (dia < 1 || dia > 28);
-
-            }
-
+        default:
+            es = false;
+            break;
         }
-
     }
-
     return es;
 
 }

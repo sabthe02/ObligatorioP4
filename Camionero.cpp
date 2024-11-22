@@ -1,73 +1,97 @@
 #include "Camionero.h"
 
-Camionero::Camionero ():nombre(), fechaNacimiento() {
+// Constructor por defecto
+Camionero::Camionero ():nombre(), fechaNacimiento()
+{
 
-cedula = 0;
-cantTatuajes = 0;
-
-}
-
-Camionero::Camionero (int ced, String nom, int canTat, Fecha fecNac): nombre(nom), fechaNacimiento(fecNac) {
-
-cedula = ced;
-cantTatuajes = canTat;
+    cedula = 0;
+    cantTatuajes = 0;
 
 }
 
-Camionero::Camionero (const Camionero &otro):nombre(otro.nombre), fechaNacimiento(otro.fechaNacimiento) {
+// Constructor comun
+Camionero::Camionero (int ced, String nom, int canTat, Fecha fecNac): nombre(nom), fechaNacimiento(fecNac)
+{
 
-cedula = otro.cedula;
-cantTatuajes = otro.cantTatuajes;
-
-}
-Camionero::~Camionero() {
-
-}
-
-int Camionero::getCedula() {
-
-return cedula;
+    cedula = ced;
+    cantTatuajes = canTat;
 
 }
 
-String Camionero::getNombre() {
+// Constructor de copia
+Camionero::Camionero (const Camionero &otro):nombre(otro.nombre), fechaNacimiento(otro.fechaNacimiento)
+{
 
-return nombre;
+    cedula = otro.cedula;
+    cantTatuajes = otro.cantTatuajes;
+
+}
+// Destructor
+Camionero::~Camionero()
+{
 
 }
 
-int Camionero:: getCantTatuajes() {
+// Devuelve la cédula del camionero.
+int Camionero::getCedula()
+{
 
-return cantTatuajes;
-
-}
-
-Fecha Camionero:: getFechaNacimiento() {
-
-return fechaNacimiento;
+    return cedula;
 
 }
 
-void Camionero:: setNombre(String nom) {
+// Devuelve el nombre del camionero.
+String Camionero::getNombre()
+{
 
-nombre = nom;
-
-}
-
-void Camionero::setCantTatuajes(int cant) {
-
-cantTatuajes = cant;
+    return nombre;
 
 }
 
-void Camionero::setFechaNacimiento(Fecha fec) {
+// Devuelve la cantidad de tatuajes del camionero.
+int Camionero:: getCantTatuajes()
+{
 
-fechaNacimiento = fec;
+    return cantTatuajes;
 
 }
 
-String Camionero::getTipo() {
+// Devuelve la fecha de nacimiento del camionero.
+Fecha Camionero:: getFechaNacimiento()
+{
 
-return "Camionero";
+    return fechaNacimiento;
+
+}
+
+// Modifica el nombre del camionero.
+void Camionero:: setNombre(String nom)
+{
+
+    nombre = nom;
+
+}
+
+// Modifica la cantidad de tatuajes del camionero.
+void Camionero::setCantTatuajes(int cant)
+{
+
+    cantTatuajes = cant;
+
+}
+
+// Modifica la fecha de nacimiento del camionero.
+void Camionero::setFechaNacimiento(Fecha fec)
+{
+
+    fechaNacimiento = fec;
+
+}
+
+// Devuelve el tipo como un string
+String Camionero::getTipo()
+{
+
+    return "Camionero";
 
 }

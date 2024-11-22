@@ -42,6 +42,7 @@
 		<Unit filename="Camiones.h" />
 		<Unit filename="ConRemolque.cpp" />
 		<Unit filename="ConRemolque.h" />
+		<Unit filename="Errores.h" />
 		<Unit filename="Fachada.cpp" />
 		<Unit filename="Fachada.h" />
 		<Unit filename="Fecha.cpp" />
@@ -57,6 +58,9 @@
 		<Unit filename="Str.cpp" />
 		<Unit filename="Str.h" />
 		<Unit filename="main.cpp" />
-		<Extensions />
+		<Extensions>
+			<envvars />
+			<debugger />
+		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

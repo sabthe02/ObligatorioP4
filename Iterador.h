@@ -8,17 +8,25 @@ class iterador{
         struct Nodo {   Objeto * info;
                         Nodo * sig;
                     };
-        Nodo * prim;
-        Nodo * ulti;
-        Nodo * actual;
+        Nodo * prim;        // Puntero al primer nodo de la lista.
+        Nodo * ulti;        // Puntero al último nodo de la lista.
+        Nodo * actual;      // Puntero al nodo actual durante la iteración.
 
     public:
-        iterador();
-        void insertar(Objeto*);
-        bool hayMasObjetos();
-        Objeto* proximoObjeto();
+    // Constructor por defecto
+    iterador();
 
+    // Inserta un objeto en la lista gestionada por el iterador.
+    void insertar(Objeto*);
+
+    // Indica si hay más objetos disponibles en la lista para iterar.
+    bool hayMasObjetos();
+
+    // Devuelve el próximo objeto en la lista y avanza el iterador.
+    Objeto* proximoObjeto();
+
+    // Destructor
+    ~iterador();
 };
-
 
 #endif // ITERADOR_H_INCLUDED
